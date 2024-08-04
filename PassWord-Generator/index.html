@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/key.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Senha</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="divtitle">
+            <h1 class="title">Gerador de senhas</h1>
+        </div>
+        <div class="box">
+            <p class="question">Quantos caracteres sua senha deve conter?</p>
+            <form action="">
+                <input id="tamanho" class="digite" type="number" placeholder="Digite aqui">
+                <br>
+                <p>Sua senha deve conter:</p>
+                <div class="options">
+                    <div class="letras">
+                        <input name="option" type="checkbox" id="letras" value="letras">
+                        <label for="letras">Letras</label>
+                    </div>
+                    <div class="number">
+                        <input name="option" type="checkbox" id="number" value="numbers">
+                        <label for="number">Números </label>
+                    </div>
+                    <div class="simbols">
+                        <input name="option" type="checkbox" id="simbols" value="simbols">
+                        <label for="simbols">Simbolos</label>
+                    </div>
+                </div>
+                <br>
+                <input onclick="geraSenha()" id="button" class="butto" value="Gerar Senha" type="button">
+            </form>
+
+            <div class="texte">
+                <p class="texto">Senha Gerada:</p>
+            
+            <div class="senha">
+                <input id="recebe" class="recebe" readonly type="text">
+            </div>
+        </div>
+        
+        </div>
+    </main>
+
+<script src="scripts/script.js"></script>
+</body>
+
+</html>

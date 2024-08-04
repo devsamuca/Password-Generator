@@ -1,0 +1,133 @@
+@charset "utf 8";
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    font-size: 15px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../image/background.png);
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.question{
+    font-size: 16px;
+}
+
+.divtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    background-color: #4f5fe9 ;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #4f5fe9;
+}
+
+.box{
+    border: solid 0px ;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ffffff;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff00;
+}
+
+input{
+    border-radius: 5px;
+    border: solid 1px;
+    margin: 7px;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input:focus{
+    outline-color: #374af8;
+}
+
+.senha{
+    text-align: center;
+}
+
+.digite{
+    padding: 5px 50px 5px 50px ;
+    box-shadow: 0px 0px 5px #ffffff;
+    border: black;
+    text-align: center;
+}
+
+
+.texte{
+    text-align: center;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+
+.butto{
+    color: #ffffff;
+    background-color: #4f5fe9;
+    margin-top: 20px;
+    padding: 12px;
+    box-shadow: 0px 0px 5px #6978ff;
+    cursor: pointer;
+    border: none;
+}
+
+.butto:hover{
+    background-color: #374af8;
+    
+}
+
+.butto:active{
+    background-color: #717fff
+}
+
+
+.recebe{
+    box-shadow: 0px 0px 5px #ffffff;
+    border: 0px ;
+    padding: 3px;
+}
+
+.letras{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+
+}
+.simbols{
+    display: flex;
+    align-items: center;
+}
+
+.options{
+    display: inline-block;
+}
+
+.erro{
+    text-decoration: #374af8;
+    font-weight: bold;
+    text-align: center;
+}
