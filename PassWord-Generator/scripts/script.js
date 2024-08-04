@@ -1,10 +1,10 @@
 var abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var simbols = '/°?}{[]^~>,<+=_-*&%$#@!';
-var Senha = '';
 
 
 function geraSenha(){
+    var Senha = '';
     var recebe = document.getElementById('recebe');
     var option = document.getElementsByName('option');
     var Tamanho = document.getElementById('tamanho');
