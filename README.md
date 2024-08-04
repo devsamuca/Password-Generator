@@ -5,11 +5,11 @@
 
 
 
-<div align="center"> About The Project </div>
+<h1 align="center"> About The Project </h1>
 
 <div align="center">This project consists of a web application that generates passwords based on some requirements applied by the user.</div>
 
-<div align="center"> Built With </div>
+<h1 align="center"> Built With </h1>
 
 <div align="center">The following tools and technologies were used to carry out this project:</div>
 
@@ -24,7 +24,7 @@
 
 </div>
 
-<div align="center"> Contact </div>
+<h1 align="center"> Contact </h1>
 
 <div align="center">
 
