@@ -1,7 +1,8 @@
 var abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var num = '0123456789';
 var simbols = '/°?}{[]^~>,<+=_-*&%$#@!';
-
+var button = document.getElementById('button')
+button.addEventListener('click', geraSenha)
 
 function geraSenha(){
     var Senha = '';
