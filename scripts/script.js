@@ -8,40 +8,44 @@ function geraSenha(){
     var Senha = '';
     var recebe = document.getElementById('recebe');
     var option = document.getElementsByName('option');
-    var Tamanho = document.getElementById('tamanho');
-    var tamanhoSenha = parseInt(Tamanho.value);
-    var contador = ''
+    var tamanho = document.getElementById('tamanho');
+
+    var tamanhoSenha = parseInt(tamanho.value);
+    if(tamanhoSenha > 100 ){
+        tamanho.value = 100
+    }
+        var contador = ''
     
-    if(option[0].checked){
-        Senha += abc
-    }
-
-    if(option[1].checked){
-        Senha += num
-    }
-
-    if(option[2].checked){
-        Senha += simbols
-    }
-
-    if(Senha == '' || Tamanho.value == ''){
-        recebe.value = '[ERRO]';
-        recebe.style.textAlign = 'center'
-        recebe.style.color = 'red'
-        recebe.style.fontWeight = 'bold'
-    }
-    else{
-        while(contador.length < tamanhoSenha){
-            var random = Math.floor(Math.random() * Senha.length) 
-            contador += Senha[random]
+        if(option[0].checked){
+            Senha += abc
         }
-        
-        recebe.value = contador
-        recebe.style.textAlign = 'center'
-        recebe.style.color = '#374af8'
-        recebe.style.fontWeight = 'bold'
-        
+    
+        if(option[1].checked){
+            Senha += num
+        }
+    
+        if(option[2].checked){
+            Senha += simbols
+        }
+    
+        if(Senha == '' || tamanho.value == ''){
+            recebe.value = '[ERROR]';
+            recebe.style.textAlign = 'center'
+            recebe.style.color = 'red'
+            recebe.style.fontWeight = 'bold'
+        }
+        else{
+            while(contador.length < tamanhoSenha){
+                var random = Math.floor(Math.random() * Senha.length) 
+                contador += Senha[random]
+            }
+            
+            recebe.value = contador
+            recebe.style.textAlign = 'center'
+            recebe.style.color = '#374af8'
+            recebe.style.fontWeight = 'bold'
+            
     }
-
 }
+
 
