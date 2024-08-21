@@ -1,4 +1,4 @@
-
+<h1 align="center">Oi, me chamo Samuel Souza👋</h1>
   <div align="center"> <img src="https://cdn-icons-png.flaticon.com/512/5582/5582931.png" alt="Logo" width="80" height="80"> </div>
 
   <h3 align="center">PassWord Generator</h3>
