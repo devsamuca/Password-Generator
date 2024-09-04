@@ -7,7 +7,7 @@
 
 <h1 align="center"> About The Project </h1>
 
-<div align="center">This project consists of a web application that generates passwords based on some requirements applied by the user.</div>
+<div align="center">This project consists of a web application that generates passwords based on some preferences applied by the user.</div>
 
 <h1 align="center"> Built With </h1>
 
