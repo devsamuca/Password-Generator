@@ -1,5 +1,5 @@
 <h1 align="center">Hi, my name is Samuel Souza👋</h1>
-  <div align="center"> <img src="https://cdn-icons-png.flaticon.com/512/5582/5582931.png" alt="Logo" width="80" height="80"> </div>
+  <div align="center"> <img src="https://cdn-icons-png.flaticon.com/128/6672/6672146.png" alt="Logo" width="80" height="80"> </div>
 
   <h3 align="center">PassWord Generator</h3>
 
